@@ -10,6 +10,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Heidi SQL
 
 <h2>Operating Systems Used </h2>
 
@@ -17,11 +18,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Virtual Machine running WindowsOS
+- Installation Files:
+  - PHP Manager for IIS v1.5.0
+  - Rewrite Module
+  - PHP 7.3.8 NTS
+  - Microsoft Visual C++ Redistributable
+  - MySQL 5.5.62
+
 
 <h2>Installation Steps</h2>
 
