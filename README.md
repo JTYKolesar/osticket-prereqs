@@ -70,9 +70,15 @@ _This should take you to the "Internet Information Services" page, which confirm
 <h3>Part 3: Installing osTicket: Support Ticketing System</h3>
 
 _We'll now need to install the prerequisites files onto the virtual machine in order for osTicket to run correctly._ </br>
-_You can download all of the necessary files for the installation <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_.
+_You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_. (Must be on the Virtual Machine!)
 <p align="center">
 <img src="https://i.imgur.com/z2pjEZI.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 - On the virtual machine, first install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view">PHP Manager for IIS v1.5.0</a>.
+- When the installation prompt appears, click "Next" > Select "I Agree" and "Next" > After installation, "Close".
+<p align="center">
+<img src="https://i.imgur.com/nUge8wP.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+
