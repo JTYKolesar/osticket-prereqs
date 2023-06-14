@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket within a created virtual machine using Microsoft Azure.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system "osTicket" within a created virtual machine using Microsoft Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -11,6 +11,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Remote Desktop
 - Internet Information Services (IIS)
 - Heidi SQL
+- osTicket (Help Desk Ticketing System)
 
 <h2>Operating Systems Used </h2>
 
@@ -19,15 +20,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Azure Virtual Machine running WindowsOS
-- Installation Files:
+- Installation Files :
   - PHP Manager for IIS v1.5.0
   - Rewrite Module
   - PHP 7.3.8 NTS
   - Microsoft Visual C++ Redistributable
   - MySQL 5.5.62
 
-
 <h2>Installation Steps</h2>
+
+<h3>Prerequisite: Creating and Connecting to a Virtual Machine</h3>
+
+- Within Microsoft Azure, create a Virtual Machine running Windows OS.
+- Connect to that VM using Remote Desktop Connection (RDP).
+
+_If you don't know how to complete this prerequisite, refer to <a href="https://github.com/JTYKolesar/azure-start#-create-a-virtual-machine">THIS PAGE</a>_
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
