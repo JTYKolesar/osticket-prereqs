@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure basic fundamentals (<a href="https://github.com/JTYKolesar/azure-start#-create-a-resource-group">Guide</a>)
 - Azure Virtual Machine running Windows OS
-- Installation Files (<a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Download All</a>):
+- Installation Files within VM (<a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Download All</a>):
   - <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view">PHP Manager for IIS v1.5.0</a>
   - <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view">Rewrite Module</a>
   - <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">PHP v7.3.8 NTS</a>
@@ -31,17 +31,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<h3>Prerequisite: Creating and Connecting to a Virtual Machine</h3>
+<h3>Part 1: Creating and Connecting to a Virtual Machine in Azure</h3>
 
-- Within Microsoft Azure, create a Virtual Machine running Windows OS.
-  - _This example uses Virtual Machine named `osTicket-VM`, with username `ostuser`_
+- Create a "Resource Group".
+- Create a "Virtual Machine" running Windows OS with an adequate Size.
+  - _This example uses Virtual Machine named `osTicket-VM`, with username `ostuser`, Size `4 vCPUs`_
 - Connect to that VM using Remote Desktop Connection (RDP).
 
 _If you don't know how to complete this prerequisite, refer to <a href="https://github.com/JTYKolesar/azure-start#-create-a-virtual-machine">THIS PAGE</a>_
 
 <h3>Installing osTicket: Support Ticket System</h3>
 
-- 
+- On the virtual machine, 
 
 
 <p>
