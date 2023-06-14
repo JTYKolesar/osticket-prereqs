@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 _If you don't know how to complete this prerequisite, refer to <a href="https://github.com/JTYKolesar/azure-start#-create-a-virtual-machine">THIS PAGE</a>_
 
-<h3>Installing osTicket: Support Ticket System</h3>
+<h3>Part 2: Enabling Windows Features in the Virtual Machine</h3>
 
 - Before installing any file, on the virtual machine:
   - Press the Windows Key/Button, then search for "Turn Windows Features on or off /Control Panel".
@@ -48,7 +48,7 @@ _If you don't know how to complete this prerequisite, refer to <a href="https://
 <img src="https://i.imgur.com/8NCudlF.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
-- Find "Internet Information Services", then click the ☐ to enable it (should now have a small black box in the middle, NOT a checkmark).
+- Find "Internet Information Services", then click the checkbox ☐ to enable it (should now have a small black box in the middle, NOT a checkmark).
   - Then, expand the folder by clicking the [+] button next to it.
 - Expand "Application Development Features", then checkmark "CGI".
 - Expand "Common HTTP Features", then checkmark ALL boxes.
@@ -58,13 +58,15 @@ _If you don't know how to complete this prerequisite, refer to <a href="https://
 <img src="https://i.imgur.com/FYHztm2.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
-_With those changes applied, we'll need to confirm it they are working._
+_With those changes applied, we'll need to confirm if they are working._
 - Open Microsoft Edge browser (or any other browser).
 - On the address bar, type in "127.0.0.1", then ENTER.
 
-_This should take you to the "Internet Information Services" page, which confirms the features working as intended._
+_This should take you to the "Internet Information Services" page, which confirms the features are working._
 <p align="center">
-<img src="https://i.imgur.com/8NCudlF.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/uzusaWg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h3>Part 3: Installing osTicket: Support Ticketing System</h3>
+
+- 
