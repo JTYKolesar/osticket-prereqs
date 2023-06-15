@@ -198,3 +198,27 @@ _Note that some of the recommended extensions are not enabled, so this will need
 <p align="center">
 <img src="https://i.imgur.com/N3FLLaY.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
+
+_For tutorial purposes, we are going to temporarily give every user the permissions to access the `ost-config.php` file._
+- Right-click the file and select "Properties".
+- Click the "Security" tab at the top, then click "Advanced" at the bottom for special permissions.
+<p align="center">
+<img src="https://i.imgur.com/iPPcbIV.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/V1EmJ2w.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Next, click "Disable inheritance".
+- When the prompt appears, click "Remove all inherited permissions from this object".
+  - _The middle box should no longer have any principals, so we'll need to add one that includes everyone._
+- Click "Add".
+<p align="center">
+<img src="https://i.imgur.com/8RaZ9Sn.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+- At the top, click "Select a principal".
+- In the object name box, type in "everyone", then click "Check Names" (it should automatically assign it to **Everyone**).
+- Press "OK", then click the checkmark to enable "Full Control".
+- Press "OK" until all properties windows are closed.
+<p align="center">
+<img src="https://i.imgur.com/8WWGxGN.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
