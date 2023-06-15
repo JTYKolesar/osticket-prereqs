@@ -259,8 +259,9 @@ _Now we can continue setting up the osTicket installation._
   - Enter MySQL Database name that was created in HeidiSLQ (**osTicket**).
   - Enter MySQL Username (default is **root**).
   - Enter MySQL Password (Password you created when installing MySQL).
-
-
+- Once completed, click "Install Now".
+  - _You should then be sent to a Congratulations! page, if worked correctly._
 <p align="center">
 <img src="https://i.imgur.com/1GQbv9n.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sfmeeK5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
