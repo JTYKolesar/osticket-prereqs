@@ -133,8 +133,19 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/NeKMEJo.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
+<h3>Part 4: Register PHP within IIS</h3>
 
-<h3>Part 4: IIS Configurations</h3>
+- Press the Windows Key/Button and search for "Internet Information Services (IIS) Manager", then "Run as Administrator".
+- Double-click "PHP Manager".
+- Under PHP Setup, click on "Register new PHP version".
+- Click on the 3-dots "..." to browse for `php-cgi.exe`, located inside the PHP folder on the C:\ drive.
+- Once you find it, click "Open" (or double-click the file), then "OK".
+<p align="center">
+<img src="https://i.imgur.com/ZUbY9fi.jpg" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5vkhmRw.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cvrfkk5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
 
 
 <h3>Part 5: Installing osTicket: Support Ticketing System</h3>
