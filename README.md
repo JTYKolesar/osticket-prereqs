@@ -260,8 +260,36 @@ _Now we can continue setting up the osTicket installation._
   - Enter MySQL Username (default is **root**).
   - Enter MySQL Password (Password you created when installing MySQL).
 - Once completed, click "Install Now".
-  - _You should then be sent to a Congratulations! page, if worked correctly._
+  - _You should then be sent to a Congratulations! page, if no errors._
 <p align="center">
 <img src="https://i.imgur.com/1GQbv9n.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/sfmeeK5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h3>Clean Up</h3>
+
+- Return to File Explorer and navigate to "C:\inetpub\wwwroot\osTicket\".
+- Find and Delete the `setup` folder.
+<p align="center">
+<img src="https://i.imgur.com/6oY0tWK.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+_Now we need to reset the permissions of the `ost-config.php` file to read-only to prevent any accidental edits._
+- Navigate to "C:\inetpub\wwwroot\osTicket\include".
+  - Right-click on `ost-config.php` file, then select "Properties".
+  - Select "Security" tab, click "Advanced".
+  - Select "Everyone" principal in the center box, then click "Edit".
+  - Uncheck "Full Control", "Modify", and "Write".
+  - Press "OK", "Apply", then "OK" to close the window.
+<p align="center">
+<img src="https://i.imgur.com/6oY0tWK.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+<h3>Testing The Login Services</h3>
+Help Desk Login Page: <a href="http://localhost/osTicket/scp/login.php">http://localhost/osTicket/scp/login.php</a></br>
+End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTicket/</a>
+
+- Copy the URLs and open them in Microsoft Edge.
+<p align="center">
+<img src="https://i.imgur.com/mQYjqoF.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
