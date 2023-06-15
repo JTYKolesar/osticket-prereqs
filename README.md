@@ -70,7 +70,9 @@ _This should take you to the "Internet Information Services" page, which confirm
 <h3>Part 3: Installing osTicket: Support Ticketing System</h3>
 
 _We'll now need to install the prerequisites files onto the virtual machine in order for osTicket to run correctly._ </br>
-_You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_. (Must be on the Virtual Machine!)
+_You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_, or download them individually while following this guide.</br>
+_(Download from the Virtual Machine!)</br>_
+_You can right-click the .zip file, click "Extract All...", then "Extract"._
 <p align="center">
 <img src="https://i.imgur.com/z2pjEZI.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
