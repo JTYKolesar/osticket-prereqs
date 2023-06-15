@@ -99,7 +99,9 @@ _We're going to have to create a directory for the next installation:_
 - Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">php-7.3.8-nts-Win32-VC15-x86.zip </a> (PHP)
   - You'll notice that the file is contained in a .zip file, so we'll have to extract the contents from it before using._
 - Right-click on the .zip file > click "Extract All..." > "Browse" > Find and select the PHP folder in C:\ > "Extract".
+  - _Or you can simply type it in the box if you already know the path name._
 <p align="center">
 <img src="https://i.imgur.com/ZfLqf3M.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/5vaaN6O.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6SEcPHm.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
+
