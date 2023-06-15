@@ -87,3 +87,19 @@ _You can download all of the necessary files <a href="https://drive.google.com/d
 <img src="https://i.imgur.com/xrSD9NW.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
+_We're going to have to create a directory for the next installation:_
+- Open the `C:\` drive in "Windows Explorer".
+- Right-click on an empty space and select to "New" > "Folder" to create a blank folder.
+- Rename the folder to "PHP".
+  - _You can right-click the new folder and select "Rename", or slowly double-click it to allow renaming_
+<p align="center">
+<img src="https://i.imgur.com/5yEsn7Z.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">php-7.3.8-nts-Win32-VC15-x86.zip </a> (PHP)
+  - You'll notice that the file is contained in a .zip file, so we'll have to extract the contents from it before using._
+- Right-click on the .zip file > click "Extract All..." > "Browse" > Find and select the PHP folder in C:\ > "Extract".
+<p align="center">
+<img src="https://i.imgur.com/ZfLqf3M.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5vaaN6O.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
