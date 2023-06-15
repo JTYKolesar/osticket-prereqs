@@ -146,6 +146,55 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/cvrfkk5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 
-
-
 <h3>Part 5: Installing osTicket: Support Ticketing System</h3>
+
+_Now we are ready to install osTicket!_
+- Download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket-v1.15.8.zip</a> (osTicket).
+  - Open the .zip file (no need to extract all).
+- Open another File Explorer window and navigate to **C:\inetpub\wwwroot**.
+- Click and Drag the `upload` folder in the .zip file into wwwroot folder (this will automatically extract that specific folder).
+- Rename `upload` to `osTicket`.
+<p align="center">
+<img src="https://i.imgur.com/caVUV5a.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Return to IIS.
+  - On the left sidebar, click "osTicket-VM".
+  - Then, on the right sidebar, click "Restart".
+<p align="center">
+<img src="https://i.imgur.com/RjawCDK.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+- On the left sidebar, click the dropdown arrow beside "Sites", same thing with "Default Web Site", then click "osTicket.
+  - _The icons in the center window should change._
+- On the right sidebar, click "Browse *:80 (http)".
+  - This will open a new tab on Microsoft Edge to the osTicket Installer page.
+<p align="center">
+<img src="https://i.imgur.com/xnYfiBb.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Iyh6UO2.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+_Note that some of the recommended extensions are not enabled, so this will need to be addressed:_
+- Return to IIS, still under osTicket folder on the left sidebar, double-click "PHP Manager".
+- Under PHP Extensions, click "Enable or disable an extension".
+<p align="center">
+<img src="https://i.imgur.com/rJNHqxf.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ao3rSMH.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Find the following below, then click "Enable" on the right sidebar:
+  - php_imap.dll
+  - php_intl.dll
+  - php_opcache.dll
+- Refresh the osTicket webpage to observe the changes.
+  - _APCu Extension & Zend OPcache Extension should be the only two with a Red X._
+<p align="center">
+<img src="https://i.imgur.com/lJLsKOa.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Return to the wwwroot folder in File Explorer.
+  - Navagate to **...wwwroot\osTicket\include**.
+  - Find `ost-sampleconfig.php`, and Rename it to `ost-config.php` (essentially removing the word sample).
+<p align="center">
+<img src="https://i.imgur.com/N3FLLaY.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
