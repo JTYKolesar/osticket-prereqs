@@ -98,8 +98,8 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/5yEsn7Z.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-- Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">php-7.3.8-nts-Win32-VC15-x86.zip </a> (PHP)
-  - You'll notice that the file is contained in a .zip file, so we'll have to extract the contents from it before using._
+- Download <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view">php-7.3.8-nts-Win32-VC15-x86.zip</a> (PHP)
+  - _You'll notice that the file is contained in a .zip file, so we'll have to extract the contents from it before using._
 - Right-click on the .zip file > click "Extract All..." > "Browse" > Find and select the PHP folder in C:\ > "Extract".
   - _Or you can simply type it in the box if you already know the path name._
 <p align="center">
@@ -107,3 +107,34 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/6SEcPHm.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 
+- Install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view">VC_redist.x86.exe</a> (Microsoft Visual C++ Redistributable).
+- Agree to the License Terms and Conditions, the click "Install".
+- Once completed, click "Close".
+<p align="center">
+<img src="https://i.imgur.com/M6bnRpe.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Next, install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view">mysql-5.5.62-win32.msi</a> (MySQL v5.5.62).
+- Agree to the License Agreement, then click "Next".
+- Click "Typical".
+- Once that's complete, click "Finish".
+<p align="center">
+<img src="https://i.imgur.com/KE9Nf9j.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Another window prompt will appear, just click "Next".
+- Click "Standard Configuration", then "Next" twice (leaving everything by default).
+- Create a password of your choice for the root login, then click "Next".
+- Click "Execute" to start the configuration process.
+- Once completed, click "Finish".
+<p align="center">
+<img src="https://i.imgur.com/J6sJ3D5.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TYXyZre.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NeKMEJo.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+
+
+<h3>Part 4: IIS Configurations</h3>
+
+
+<h3>Part 5: Installing osTicket: Support Ticketing System</h3>
