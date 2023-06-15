@@ -282,7 +282,7 @@ _Now we need to reset the permissions of the `ost-config.php` file to read-only 
   - Uncheck "Full Control", "Modify", and "Write".
   - Press "OK", "Apply", then "OK" to close the window.
 <p align="center">
-<img src="https://i.imgur.com/6oY0tWK.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6oY0tWK.jpg" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 
 <h3>Testing The Login Services</h3>
@@ -291,5 +291,11 @@ End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTi
 
 - Copy the URLs and open them in Microsoft Edge.
 <p align="center">
-<img src="https://i.imgur.com/mQYjqoF.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mQYjqoF.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
+
+<h1>TUTORIAL END.</h1>
+
+<h3>DELETE **EVERYTHING!** IN AZURE TO SAVE CREDITS!</h3>
+
+_If you don't know how to, click <a href="https://github.com/JTYKolesar/azure-start/blob/main/README.md#bonus-delete-all-resources-in-azure">HERE</a>_
