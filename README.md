@@ -222,3 +222,45 @@ _For tutorial purposes, we are going to temporarily give every user the permissi
 <p align="center">
 <img src="https://i.imgur.com/8WWGxGN.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
+
+_Now we can continue setting up the osTicket installation._
+- Install <a href="https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe">HeidiSQL v12.3.0.6589</a> (Heidi SQL).
+  - Accept the agreement, then keep clicking "Next", then "Install".
+  - Once done, click Finish to launch the program.
+<p align="center">
+<img src="https://i.imgur.com/8Ya2O7l.jpg" height="150%" width="150%" alt="Disk Sanitization Steps"/>
+</p>
+
+- In HeidiSQL, click "New" at the bottom left.
+- Enter the username **"root"**, and the password you created when installing MySQL.
+- Click "Open".
+<p align="center">
+<img src="https://i.imgur.com/MRTC33j.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Right-click "Unnamed" on the left sidebar.
+  - Select "Created new" > "Database".
+- Type in the name "osTicket", then click "OK".
+<p align="center">
+<img src="https://i.imgur.com/ULeJErY.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+
+- Return the osTicket Installation webpage, click "Continue".
+- Under System Settings section:
+  - Create a Helpdesk Name of your choice (this example uses **OST Help Desk**).
+  - Create a Default Email of your choice (this example uses **ost@helper.com**).
+- Under Admin User section, create the appropriate credentials of your choice (example below):
+  - **First Name:** ost
+  - **Last Name:** user
+  - **Email Address:** ostuser@email.com
+  - **Username:** ostuser
+  - **Password:** Password1
+- Under Database Settings section:
+  - Enter MySQL Database name that was created in HeidiSLQ (**osTicket**).
+  - Enter MySQL Username (default is **root**).
+  - Enter MySQL Password (Password you created when installing MySQL).
+
+
+<p align="center">
+<img src="https://i.imgur.com/1GQbv9n.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
