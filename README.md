@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system "osTicket" within a created virtual machine using Microsoft Azure.<br />
+This demonstration outlines the prerequisites and installation of the open-source help desk ticketing system "osTicket" within a created virtual machine using Microsoft Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -203,7 +203,7 @@ _Note that some of the recommended extensions are not enabled, so this will need
 <img src="https://i.imgur.com/N3FLLaY.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 
-_For tutorial purposes, we are going to temporarily give every user the permissions to access the `ost-config.php` file._
+_For demonstration purposes, we are going to temporarily give every user the permissions to access the `ost-config.php` file._
 - Right-click the file and select "Properties".
 - Click the "Security" tab at the top, then click "Advanced" at the bottom for special permissions.
 <p align="center">
@@ -302,7 +302,7 @@ End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTi
 </p>
 <hr>
 
-<h1>TUTORIAL END.</h1>
+<h1>(ﾉ^ヮ^)ﾉ*:・ﾟ✧ COMPLETE! ✧ﾟ・:*╰(^ヮ^╰)</h1>
 
 <h3>DELETE **EVERYTHING!** IN AZURE TO SAVE CREDITS!</h3>
 
