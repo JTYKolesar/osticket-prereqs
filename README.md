@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<h3>Part 1: Creating and Connecting to a Virtual Machine in Azure</h3>
+<h3>&#9312; Creating and Connecting to a Virtual Machine in Azure</h3>
 
 - Create a "Resource Group".
 - Create a "Virtual Machine" running Windows OS with an adequate Size.
@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 _If you don't know how to complete this prerequisite, refer to <a href="https://github.com/JTYKolesar/azure-start#-create-a-virtual-machine">THIS PAGE</a>_
 
-<h3>Part 2: Enabling Windows Features in the Virtual Machine</h3>
+<h3>&#9313; Enabling Windows Features in the Virtual Machine</h3>
 
 - Before installing any file, on the virtual machine:
   - Press the Windows Key/Button, then search for "Turn Windows Features on or off /Control Panel".
@@ -67,7 +67,7 @@ _This should take you to the "Internet Information Services" page, which confirm
 <img src="https://i.imgur.com/uzusaWg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Part 3: Installing osTicket: Support Ticketing System</h3>
+<h3>&#9314; Installing osTicket: Support Ticketing System</h3>
 
 _We'll now need to install the prerequisites files onto the virtual machine in order for osTicket to run correctly._ </br>
 _You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_, or download them individually while following this guide.</br>
@@ -133,7 +133,7 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/NeKMEJo.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Part 4: Register PHP within IIS</h3>
+<h3>&#9315; Register PHP within IIS</h3>
 
 - Press the Windows Key/Button and search for "Internet Information Services (IIS) Manager", then "Run as Administrator".
 - Double-click "PHP Manager".
@@ -146,7 +146,7 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/cvrfkk5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Part 5: Installing osTicket: Support Ticketing System</h3>
+<h3>&#9316; Installing osTicket: Support Ticketing System</h3>
 
 _Now we are ready to install osTicket!_
 - Download <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">osTicket-v1.15.8.zip</a> (osTicket).
@@ -266,7 +266,7 @@ _Now we can continue setting up the osTicket installation._
 <img src="https://i.imgur.com/sfmeeK5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Clean Up</h3>
+<h3>&#9317; Clean Up</h3>
 
 - Return to File Explorer and navigate to "C:\inetpub\wwwroot\osTicket\".
 - Find and Delete the `setup` folder.
@@ -285,7 +285,7 @@ _Now we need to reset the permissions of the `ost-config.php` file to read-only 
 <img src="https://i.imgur.com/6oY0tWK.jpg" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 
-<h3>Testing The Login Services</h3>
+<h3>&#9318; Testing The Login Services</h3>
 Help Desk Login Page: <a href="http://localhost/osTicket/scp/login.php">http://localhost/osTicket/scp/login.php</a></br>
 End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTicket/</a>
 
