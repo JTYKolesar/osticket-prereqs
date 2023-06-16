@@ -282,7 +282,8 @@ _Now we need to reset the permissions of the `ost-config.php` file to read-only 
   - Uncheck "Full Control", "Modify", and "Write".
   - Press "OK", "Apply", then "OK" to close the window.
 <p align="center">
-<img src="https://i.imgur.com/6oY0tWK.jpg" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BIdXCox.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bQsRfR0.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 
 <h3>&#9318; Testing The Login Services</h3>
