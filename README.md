@@ -39,6 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Connect to that VM using Remote Desktop Connection (RDP).
 
 _If you don't know how to complete this prerequisite, refer to <a href="https://github.com/JTYKolesar/azure-start#-create-a-virtual-machine">THIS PAGE</a>_
+<hr>
 
 <h3>&#9313; Enabling Windows Features in the Virtual Machine</h3>
 
@@ -66,6 +67,7 @@ _This should take you to the "Internet Information Services" page, which confirm
 <p align="center">
 <img src="https://i.imgur.com/uzusaWg.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h3>&#9314; Installing osTicket: Support Ticketing System</h3>
 
@@ -132,6 +134,7 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/TYXyZre.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/NeKMEJo.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h3>&#9315; Register PHP within IIS</h3>
 
@@ -145,6 +148,7 @@ _We're going to have to create a directory for the next installation:_
 <img src="https://i.imgur.com/5vkhmRw.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/cvrfkk5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h3>&#9316; Installing osTicket: Support Ticketing System</h3>
 
@@ -265,6 +269,7 @@ _Now we can continue setting up the osTicket installation._
 <img src="https://i.imgur.com/1GQbv9n.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/sfmeeK5.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h3>&#9317; Clean Up</h3>
 
@@ -285,6 +290,7 @@ _Now we need to reset the permissions of the `ost-config.php` file to read-only 
 <img src="https://i.imgur.com/BIdXCox.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/bQsRfR0.jpg" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h3>&#9318; Testing The Login Services</h3>
 Help Desk Login Page: <a href="http://localhost/osTicket/scp/login.php">http://localhost/osTicket/scp/login.php</a></br>
@@ -294,6 +300,7 @@ End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTi
 <p align="center">
 <img src="https://i.imgur.com/mQYjqoF.jpg" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <h1>TUTORIAL END.</h1>
 
