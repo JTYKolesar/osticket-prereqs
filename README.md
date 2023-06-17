@@ -302,7 +302,7 @@ End User Ticket Page: <a href="http://localhost/osTicket/">http://localhost/osTi
 </p>
 <hr>
 
-<h1>(ﾉ^ヮ^)ﾉ*:・ﾟ✧ COMPLETE! ✧ﾟ・:*╰(^ヮ^╰)</h1>
+<h1><p align=center>(ﾉ^ヮ^)ﾉ*:・ﾟ✧ COMPLETE! ✧ﾟ・:*╰(^ヮ^╰)</p></h1>
 
 <h3>DELETE **EVERYTHING!** IN AZURE TO SAVE CREDITS!</h3>
 
