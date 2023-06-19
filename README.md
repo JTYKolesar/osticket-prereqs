@@ -19,7 +19,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 
 <h2>List of Prerequisites</h2>
 
-- Microsoft Azure basic fundamentals (<a href="https://github.com/JTYKolesar/azure-start#-create-a-resource-group">Guide</a>)
+- Microsoft Azure basic fundamentals (<a href="https://github.com/JTYKolesar/azure-start#-create-a-resource-group">Demo</a>)
 - Azure Virtual Machine running Windows OS
 - Installation Files within VM (<a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Download All</a>):
   - <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view">PHP Manager for IIS v1.5.0</a>
@@ -72,7 +72,7 @@ _This should take you to the "Internet Information Services" page, which confirm
 <h3>&#9314; Installing osTicket: Support Ticketing System</h3>
 
 _We'll now need to install the prerequisites files onto the virtual machine in order for osTicket to run correctly._ </br>
-_You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_, or download them individually while following this guide.</br>
+_You can download all of the necessary files <a href="https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">HERE</a>_, or download them individually while following this demo.</br>
 _(Download from the Virtual Machine!)</br>_
 _You can right-click the .zip file, click "Extract All...", then "Extract"._
 <p align="center">
