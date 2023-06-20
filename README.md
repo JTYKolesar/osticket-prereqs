@@ -207,7 +207,7 @@ _For demonstration purposes, we are going to temporarily give every user the per
 - Right-click the file and select "Properties".
 - Click the "Security" tab at the top, then click "Advanced" at the bottom for special permissions.
 <p align="center">
-<img src="https://i.imgur.com/iPPcbIV.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iPPcbIV.jpg" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/V1EmJ2w.jpg" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 
